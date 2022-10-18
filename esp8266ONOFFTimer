@@ -1,0 +1,14 @@
+void setup() {
+  // put your setup code here, to run once:
+  
+  Serial.begin(115200);
+  pinMode(5, OUTPUT);
+  
+}
+
+void loop() {
+  digitalWrite(5, LOW);   // Turn the LED on by making the voltage LOW
+  delay(99300);            // Wait for a second
+  digitalWrite(5, HIGH);  // Turn the LED off by making the voltage HIGH
+  delay(92000);            // Wait for two seconds
+}
